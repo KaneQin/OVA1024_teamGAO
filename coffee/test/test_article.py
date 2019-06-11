@@ -17,7 +17,7 @@ class MyTestCase(unittest.TestCase):
        arts="http://47.92.220.226/bbs/index.php/article/index/page-2"
 
 
-       self.assertEqual(arts, arts)
+       self.assertEqual(arts, ext)
 
 
 if __name__ == '__main__':
