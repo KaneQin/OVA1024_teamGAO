@@ -1,0 +1,37 @@
+1560245193729	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.XMNE8hF8cvPU"
+1560245195431	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560245195431	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560245195432	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560245203860	Marionette	INFO	Listening on port 57440
+1560245204349	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 3764, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3764, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 18752, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 4844, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 481560245212558	Marionette	INFO	Stopped listening on port 57440
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 11864, Chrome_Child
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+hild][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+has been shut down. Rejecting post to stat
+: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 4564, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1560242910257	Marionette	INFO	Stopped listening on port 55694
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 5316
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1560242637772	Marionette	INFO	Stopped listening on port 55346
+[GPU 164
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+08, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
