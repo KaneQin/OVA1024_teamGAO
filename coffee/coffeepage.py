@@ -2,15 +2,15 @@
 from coffee.drivers.webdriver import driver
 from coffee.utils.tools import Tool
 from coffee.utils.urls import LOGIN_PAGE_URL
-class CoffeeDriver(Tool):
 
+
+class CoffeeDriver(Tool):
 
     xpath = None
     keyword = None
 
     def __init__(self):
         self.driver = driver
-        self.Debug("coffeepage -> driver %s" % self.driver)
         self.driver.get(LOGIN_PAGE_URL)
 
     def open_and_check(self):
