@@ -3,6 +3,7 @@ from coffee.drivers.webdriver import driver
 from coffee.utils.tools import Tool
 from coffee.utils.urls import LOGIN_PAGE_URL
 class CoffeeDriver(Tool):
+
     def __init__(self):
         self.driver = driver
         self.Debug("coffeepage -> driver %s" % self.driver)
