@@ -13,7 +13,7 @@ class login():
         passwords.send_keys(password)
         denglv=__driver.find_element_by_id("comm-submit")
         denglv.click()
-        time.sleep(1)
+        time.sleep(5)
 
 
 
