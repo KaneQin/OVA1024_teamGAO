@@ -14,10 +14,10 @@ class MyTestCase(unittest.TestCase):
        ext=Article().Publish()
 
        #实际值
-       arts="http://47.92.220.226/bbs/index.php/article/index/page-2"
+       art="http://47.92.220.226/bbs/index.php/article/index/page-2"
 
 
-       self.assertEqual(arts, arts)
+       self.assertEqual(art, ext)
 
 
 if __name__ == '__main__':
