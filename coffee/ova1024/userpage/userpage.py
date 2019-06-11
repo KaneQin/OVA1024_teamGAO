@@ -3,6 +3,7 @@
 from coffee.ova1024.loginpage import login
 from  coffee.coffeepage import CoffeeDriver
 from coffee.drivers.webdriver import driver
+import time
 
 class UserPage(CoffeeDriver):
 
@@ -14,6 +15,8 @@ class UserPage(CoffeeDriver):
 
         login.login.Sign_in(email,password)
 
+
         user_xpath = "/html/body/div[1]/div/a[5]"
         user_page = driver.find_element_by_xpath(user_xpath)
         user_page.click()
+        time.sleep(5)
