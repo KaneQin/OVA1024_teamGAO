@@ -1,15 +1,15 @@
 # -*- encoding:utf-8 -*-
 from coffee.coffeepage import CoffeeDriver
-from coffee.ova1024.loginpage.login import login
 from coffee.drivers.webdriver import driver
 
 class CreateGroup(CoffeeDriver):
+    xpath = "//*[@class='btn btn-info btn-sm']"
+    keyword = u"发布帖子"
     def __init__(self):
         self.driver=driver
-        login().Sign_in("1690344964@qq.com", "6149762364")
-        element=self.driver.find_element_by_xpath("/html/body/div[1]/div/a[2]")
-        element.click()
-
+    def label_group(self):
+        element = self.driver.find_element_by_xpath("/html/body/div[1]/div/a[2]")
+        return element
     def label_create_group(self):
         element=self.driver.find_element_by_xpath("/html/body/div[3]/nav/a")
         return element
@@ -41,3 +41,6 @@ class CreateGroup(CoffeeDriver):
         self.Debug("向小组标签控件中输入标签：%s" % grouptag)
         self.grouptag.send_keys(grouptag)
         self.label_creategroup().click()
+
+
+
