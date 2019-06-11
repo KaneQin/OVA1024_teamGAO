@@ -14,14 +14,14 @@ class IndexPage(CoffeeDriver):
         element = self.driver.find_element_by_xpath('/html/body/div[1]/div/a[1]')
         element.click()
 
-    def talktalk(self):
+    def talk_dingwei(self):
         element = self.driver.find_element_by_xpath("/html/body/div[3]/div[3]/div[2]/div[2]/div[2]/div/div[1]/form/textarea")
         return element
 
-    def an(self):
+    def talk_an_dingwei(self):
         element = self.driver.find_element_by_xpath("/html/body/div[3]/div[3]/div[2]/div[2]/div[2]/div/div[1]/form/input[2]")
         return element
 
-    def send(self,talk):
-        self.talktalk().send_keys(talk)
-        self.an().click()
+    def talk_send(self,talk):
+        self.talk_dingwei().send_keys(talk)
+        self.talk_an_dingwei().click()

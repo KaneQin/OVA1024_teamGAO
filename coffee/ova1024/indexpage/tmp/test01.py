@@ -9,7 +9,7 @@ class TestCase(unittest.TestCase):
 
     def test_index(self):
 
-        self.index_page.send(11223)
+        self.index_page.talk_send(11223)
 
 
 
