@@ -4,7 +4,7 @@ from coffee.drivers.webdriver import driver
 # from coffee.utils.urls import HOME_PAGE_URL
 from coffee.coffeepage import CoffeeDriver
 from coffee.ova1024.loginpage.login import login
-from coffee.utils.tools import Tool
+# from coffee.utils.tools import Tool
 
 class IndexPage(CoffeeDriver):
     xpath = "/html/body/div[3]/div[3]/div[1]/div[1]/div[1]"

@@ -7,11 +7,11 @@ class TestCase(unittest.TestCase):
     def setUpClass(cls):
         cls.index_page = IndexPage()
 
-    def test_index_talk(self):
-        self.index_page.talk_send(11223)
+    # def test_index_talk(self):
+    #     self.index_page.talk_send(11223)
 
-    # def test_index_tiaozhuang_group(self):
-    #     self.index_page.tiaozhuan_group()
+    def test_index_tiaozhuang_group(self):
+        self.index_page.tiaozhuan_group()
 
 
 
