@@ -33,6 +33,7 @@ class IndexPage(CoffeeDriver):
     def tiaozhuan_group_dingwei(self):
         element = self.driver.find_element_by_xpath("/html/body/div[1]/div/a[2]")
         return element
+
     def tiaozhuan_group(self):
         self.index().click()
         self.tiaozhuan_group_dingwei().click()
