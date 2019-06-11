@@ -6,8 +6,10 @@ from coffee.utils.urls import LOGIN_PAGE_URL
 
 class CoffeeDriver(Tool):
 
+
     xpath = None
     keyword = None
+
 
     def __init__(self):
         self.driver = driver
